@@ -1,0 +1,84 @@
+.header {
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    left: 255px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 68px;
+}
+
+.wrapbtnandsearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextprev,
+.search,
+.action {
+    display: flex;
+}
+
+.btnprev,
+.btnnext {
+    font-size: 24px;
+    color: #444;
+    margin-right: 10px;
+}
+
+.search {
+    width: 540px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 40px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.wrapiconsearch {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsearch:hover {
+    cursor: pointer;
+}
+
+.inputsearch {
+    width: 100%;
+    color: #eee;
+    height: 100%;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    outline: none;
+    caret-color: crimson;
+}
+.action{
+    display: flex;
+}
+.chude,
+.nangcapvip,
+.tailen,
+.setting,
+.user{
+    margin-left: 10px;
+    width: 40px;
+    overflow: hidden;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0,0%,100%,0.1);
+    border-radius: 999px;
+}
