@@ -17,3 +17,44 @@
         }
     }
 }
+
+
+.wraplistmusicitem{
+    flex: 1;
+    .listmusic_item{
+        display: flex;
+        padding: 10px;
+        .listmusic_item_thumbnail{
+            width: 60px;
+            height: 60px;
+            margin-right: 13px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        .listmusic_item_infor{
+            flex: 1;
+            position: relative;
+            .wraplistmusic_item_infor{
+                position: absolute;
+                width: 100%;
+                height: max-content;
+                overflow: hidden;
+                .listmusic_item_infor1{
+                    width: max-content;
+                    h4{
+                        margin: 0;
+                        color: aliceblue;
+                    }
+                }
+                h5{
+                    margin: 5px 0 0 0;
+                    color: hsla(0,0%,100%,0.3);
+                }
+            }
+        }
+    }
+}

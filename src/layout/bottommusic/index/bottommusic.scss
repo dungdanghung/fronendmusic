@@ -1,10 +1,10 @@
-.playmusicitem{
+.playmusicitem {
     z-index: 2;
     width: 100%;
     bottom: 0;
     display: flex;
     align-items: center;
-    border-top: 1px solid hsla(0,0%,100%,0.1);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
     height: 97px;
     padding: 0 22px;
     -webkit-user-select: none;
@@ -15,26 +15,37 @@
     user-select: none;
     // background-image: url(https\:\/\/zmp3-static\.zmdcdn\.me\/skins\/zmp3-v6\.1\/images\/theme\/xone-miniplayer\.jpg);
 }
-.itemuser{
+
+.itemuser {
     display: flex;
-}.thumner img{
+}
+
+.thumner img {
     width: 66px;
     border-radius: 7px;
-}.contenplaymusic{
+}
+
+.contenplaymusic {
     display: flex;
     align-items: center;
     margin-left: 12px;
     padding-right: 15px;
     max-width: max-content;
     overflow: hidden;
-    -webkit-mask-image: linear-gradient(270deg,transparent .5%,#000 10%);
-}.titlecontenplaymusic a{
+    -webkit-mask-image: linear-gradient(270deg, transparent .5%, #000 10%);
+}
+
+.titlecontenplaymusic a {
     text-decoration: none;
-}.titlecontenplaymusic{
+}
+
+.titlecontenplaymusic {
     margin-top: -12px;
     width: max-content;
-}.text_titlecontenplaymusic{
-    
+}
+
+.text_titlecontenplaymusic {
+
     line-height: 1.36;
     text-overflow: clip;
     overflow: visible;
@@ -42,24 +53,32 @@
     align-items: center;
     color: #fff;
     text-decoration: none;
-}.titleitemcontenplaymusic{
+}
+
+.titleitemcontenplaymusic {
     font-size: 14px;
     width: max-content;
 }
-.titleitemcontenplaymusic a{
+
+.titleitemcontenplaymusic a {
     text-decoration: none;
-    color: hsla(0,0%,100%,0.5);
+    color: hsla(0, 0%, 100%, 0.5);
     margin-right: 5px;
 }
-.titleitemcontenplaymusic a:hover{
+
+.titleitemcontenplaymusic a:hover {
     color: #ffdb00;
-    text-decoration:underline;
-}.icenitemuser{
+    text-decoration: underline;
+}
+
+.icenitemuser {
     color: #fff;
     display: flex;
     align-items: center;
     margin-left: 27px;
-}.icenitemuser button{
+}
+
+.icenitemuser button {
     display: flex;
     align-items: center;
     width: 34px;
@@ -68,24 +87,33 @@
     background-color: transparent;
     justify-content: center;
     border-radius: 50%;
-}.icenitemuser button:hover{
-    background-color: hsla(0,0%, 100%, .1);
-}.coler{
+}
+
+.icenitemuser button:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+}
+
+.coler {
     color: #fff;
 }
+
 /////////////////////////////////////@at-root
 /// 
 
-.itemplaymusic{
+.itemplaymusic {
     min-width: 320px;
     flex: 1;
     max-width: 600px;
-}.controplay{
+}
+
+.controplay {
     display: flex;
     justify-content: center;
     color: #d9d9d9;
     align-items: center;
-}.cssbtnplay{
+}
+
+.cssbtnplay {
     width: 32px;
     height: 32px;
     display: flex;
@@ -95,7 +123,8 @@
     font-size: 20px;
     border-radius: 50%;
 }
-.cssbtnplaymusic{
+
+.cssbtnplaymusic {
     width: 40px;
     height: 40px;
     font-size: 40px;
@@ -107,17 +136,24 @@
     position: relative;
     border-radius: 50%;
 }
-.cssbtnplaymusic:hover{
+
+.cssbtnplaymusic:hover {
     color: #ffdb00;
 }
-.cssbtnplay:hover{
+
+.cssbtnplay:hover {
     background-color: hsla(0, 0%, 100%, .1);
-}.active{
+}
+
+.active {
     color: #ffdb00;
-}.activebtnplay{
+}
+
+.activebtnplay {
     display: none;
 }
-.wrapmusicplaying{
+
+.wrapmusicplaying {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -125,30 +161,36 @@
     justify-content: space-between;
     align-items: center;
 }
-.starttime, .endtime{
+
+.starttime,
+.endtime {
     margin: 0;
 }
-.musicplaying{
+
+.musicplaying {
     height: 19px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.timemusicitem{
+
+.timemusicitem {
     position: relative;
     height: 3px;
     width: 100%;
     // transition: all linear 0.2s;
     // background: linear-gradient(to right, black 0%, #fff 0%);
 }
-.timemusic{
+
+.timemusic {
     width: 80%;
     height: 21px;
     align-items: center;
     display: flex;
 }
-.wrapnutchay{
+
+.wrapnutchay {
     position: absolute;
     height: 100%;
     align-items: center;
@@ -157,27 +199,33 @@
     transition: all linear;
     transform: translateX(1px);
 }
-.nutchay{
-  position: absolute;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: #ffdb00;
-  right: 0;
-  transform: translateX(50%);
+
+.nutchay {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffdb00;
+    right: 0;
+    transform: translateX(50%);
 }
 
 //-----------------------------------
-.wrapactionicon{
+.wrapactionicon {
     color: #fff;
     display: flex;
     align-items: center;
-}.iconhover{
+}
+
+.iconhover {
     border-radius: 50%;
- }
- .iconhover:hover{
-     background-color: hsla(0,0%,100%,0.1);
- }.wrapactioniconitem{
+}
+
+.iconhover:hover {
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.wrapactioniconitem {
     width: 40px;
     height: 40px;
     display: flex;
@@ -186,54 +234,68 @@
     font-size: 20px;
     margin: 0 5px;
 }
-.wrapactioniconitemvolum{
+
+.wrapactioniconitemvolum {
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-}.wrapinputrange{
+}
+
+.wrapinputrange {
     display: flex;
     align-items: center;
-  }.rangevolume{
+}
+
+.rangevolume {
     width: 70px;
     position: relative;
     display: flex;
     align-items: center;
     position: relative;
     height: 15px;
-   
-}.nutrange{
+
+}
+
+.nutrange {
     position: absolute;
     width: 100%;
     display: flex;
     align-items: center;
     height: 3px;
     border-radius: 4px;
-   }
-   .nutrangeitem{
-       width: 10px;
-       position: absolute;
-       right: 0;
-       height: 10px;
-       border-radius: 50%;
-       display: none;
-       background-color: #ffdb00;
-   }.nutrangeitem1{
+}
+
+.nutrangeitem {
+    width: 10px;
+    position: absolute;
+    right: 0;
+    height: 10px;
+    border-radius: 50%;
+    display: none;
+    background-color: #ffdb00;
+}
+
+.nutrangeitem1 {
     position: absolute;
     display: flex;
     border-radius: 4px;
     align-items: center;
     height: 100%;
     background-color: #ffdb00;
-}.divoutside{
+}
+
+.divoutside {
     position: absolute;
     width: 100%;
     z-index: 2;
     height: 100%;
     cursor: pointer;
-}.gach{
+}
+
+.gach {
     width: 15px;
     height: 40px;
     position: relative;
@@ -242,17 +304,23 @@
     align-items: center;
     margin: 0 5px;
 }
-.gachitem{
+
+.gachitem {
     position: absolute;
     height: 100%;
     width: 2px;
-    background-color: hsla(0,0%,100%,0.1);
-}.iconhover{
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.iconhover {
     border-radius: 50%;
- }
- .iconhover:hover{
-     background-color: hsla(0,0%,100%,0.1);
- }.wrapactioniconitem{
+}
+
+.iconhover:hover {
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.wrapactioniconitem {
     width: 40px;
     height: 40px;
     display: flex;
@@ -261,7 +329,8 @@
     font-size: 20px;
     margin: 0 5px;
 }
-.wrapactioniconitemvolum{
+
+.wrapactioniconitemvolum {
     width: 40px;
     height: 40px;
     display: flex;
@@ -270,6 +339,54 @@
     font-size: 20px;
 }
 
-.wrapvolum{
+.wrapvolum {
     display: flex;
+}
+
+.thumner {
+    width: 72px;
+    position: relative;
+    overflow: hidden;
+
+    .thumneritem {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        // background: linear-gradient(to right, black  100%, #fff 0%);       
+    }
+
+    .loading::before {
+        background-color: #cfcfcf;
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .loading::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, #cfcfcf 10%, #ffffff 50%, #cfcfcf 90%);
+        animation: loadinganimation 1s infinite alternate;
+    }
+}
+
+@keyframes loadinganimation {
+    from {
+        left: -50%;
+    }
+
+    to {
+        left: 50%;
+    }
 }

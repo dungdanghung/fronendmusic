@@ -2,8 +2,14 @@ import Header from "../header/index";
 import "./mainlayout.scss"
 import Sidebar from "../sidebar/index";
 import Bottommusic from "../bottommusic/index/index";
-import Scrollconten from "../../scroll/scroll";
-function Mainlayout({children}) {
+import { useEffect } from "react";
+import dung_react_scrollbar from "dung_react_scrollbar"
+function Mainlayout({ children }) {
+
+    useEffect(()=>{
+        let a = document.querySelector(".content")
+        dung_react_scrollbar(a)
+    })
 
     return (
         <div className="app" style={{ backgroundColor: "black", height: "100%", flexDirection: "column", display: "flex", backgroundImage: "url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/xone-bg.jpg)", backgroundAttachment: "fixed" }}>
@@ -11,12 +17,9 @@ function Mainlayout({children}) {
                 <Sidebar />
                 <div className="wrapmainheaderandconten">
                     <Header />
-                    <div className="content">
-                        <div className="wrapconten">
+                        <div className="content">
                             {children}
                         </div>
-                        <Scrollconten/>
-                    </div>
                 </div>
             </div>
 

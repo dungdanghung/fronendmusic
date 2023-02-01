@@ -12,7 +12,6 @@ function Homepage() {
                 <Compunent01 />
                 <Compunent02 />
                 <Compunent03 />
-                <div style={{height: "500px"}}></div>
             </div>
         </>
     )

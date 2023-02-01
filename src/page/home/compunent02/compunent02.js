@@ -21,7 +21,6 @@ function Compunent02() {
                     <p>TẤT CẢ</p>
                     <i className="fa-solid fa-chevron-right"></i>
                 </div>
-
             </div>
             <div className='gandayconten'>
                 <div className="wrapgandayconten">

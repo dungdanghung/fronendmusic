@@ -1,9 +1,10 @@
-import Reducerbottommusic from "../layout/bottommusic/redux/reduceritem";
+
+import Data_of_bottommusic from "./mainredux/data_of_bottommusic";
 
 
 function Reducer(state = {}, action) {
     return {
-        bottommusic: Reducerbottommusic(state.bottommusic, action),
+        data_of_bottommusic: Data_of_bottommusic(state.data_of_bottommusic, action)
     }
 }
 

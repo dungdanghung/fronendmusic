@@ -10,10 +10,10 @@ function Rightbottommusic() {
 
     const [indexvolume, setindexvolume] = useState(0.3)
 
-    useEffect(() => {
-        document.querySelector(".nutrange").style.background = `linear-gradient(to right, black ${(indexvolume*100)}%, #fff 0%)`
-        document.querySelector(".music").volume = indexvolume
-    }, [indexvolume])
+    // useEffect(() => {
+    //     document.querySelector(".nutrange").style.background = `linear-gradient(to right, black ${(indexvolume*100)}%, #fff 0%)`
+    //     document.querySelector(".music").volume = indexvolume
+    // }, [indexvolume])
 
     function xulymove(e,min,max) {
         let value = ((e.screenX - min) / (max - min) * 100) / 100;
@@ -39,7 +39,7 @@ function Rightbottommusic() {
     }
     return (
         <>
-            <div className="itemactionmusic">
+            {/* <div className="itemactionmusic">
                 <div className='wrapactionicon'>
                     <div className='iconhover wrapactioniconitem'><FontAwesomeIcon icon={faCompactDisc} /></div>
                     <div className='iconhover wrapactioniconitem'><FontAwesomeIcon icon={faMicrophoneLines} /></div>
@@ -57,7 +57,7 @@ function Rightbottommusic() {
                     </div>
                     <div className='iconhover wrapactioniconitem'><FontAwesomeIcon icon={faFileAudio} /></div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
