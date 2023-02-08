@@ -37,10 +37,20 @@ async function getsongofid(index){
     }
 }
 
+async function getsearch(value) {
+    try {
+        let a = await axios.get("search/"+value)
+        return a
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 
 export default {
     getimgadvertisement,
     getallimgganday,
     getlistsong,
     getsongofid,
+    getsearch,
 }

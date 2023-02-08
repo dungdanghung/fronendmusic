@@ -4,6 +4,7 @@ import Sidebar from "../sidebar/index";
 import Bottommusic from "../bottommusic/index/index";
 import { useEffect } from "react";
 import dung_react_scrollbar from "dung_react_scrollbar"
+
 function Mainlayout({ children }) {
 
     useEffect(()=>{
@@ -12,7 +13,7 @@ function Mainlayout({ children }) {
     })
 
     return (
-        <div className="app" style={{ backgroundColor: "black", height: "100%", flexDirection: "column", display: "flex", backgroundImage: "url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/xone-bg.jpg)", backgroundAttachment: "fixed" }}>
+        <div className="app" style={{ backgroundColor: "#170f23", height: "100%", flexDirection: "column", display: "flex", backgroundAttachment: "fixed" }}>
             <div className="main" style={{ flex: "1", display: "flex", width: "100%" }}>
                 <Sidebar />
                 <div className="wrapmainheaderandconten">

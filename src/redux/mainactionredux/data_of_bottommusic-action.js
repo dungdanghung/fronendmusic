@@ -12,7 +12,7 @@ export function actionplay(data) {
 }
 export function changeranges(data) {
     return {
-        type: "setindexshow",
+        type: "changerangemusic",
         data: data,
     }
 }

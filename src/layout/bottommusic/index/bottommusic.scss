@@ -18,6 +18,8 @@
 
 .itemuser {
     display: flex;
+    width: 25%;
+    max-width: 28%;
 }
 
 .thumner img {
@@ -26,22 +28,30 @@
 }
 
 .contenplaymusic {
+    // display: flex;
+    // align-items: center;
+    margin-left: 12px;
+    // padding-right: 15px;
+    // max-width: max-content;
+    // overflow: hidden;
+    // -webkit-mask-image: linear-gradient(270deg, transparent .5%, #000 10%);
+    flex: 1;
     display: flex;
     align-items: center;
-    margin-left: 12px;
-    padding-right: 15px;
-    max-width: max-content;
-    overflow: hidden;
-    -webkit-mask-image: linear-gradient(270deg, transparent .5%, #000 10%);
 }
 
 .titlecontenplaymusic a {
     text-decoration: none;
 }
-
+.wrapcontenplaymusic{
+    width: 100%;
+    height: max-content
+}
 .titlecontenplaymusic {
-    margin-top: -12px;
-    width: max-content;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .text_titlecontenplaymusic {
@@ -57,7 +67,9 @@
 
 .titleitemcontenplaymusic {
     font-size: 14px;
-    width: max-content;
+    width: 60%;
+    height: 15px;
+    overflow: hidden;
 }
 
 .titleitemcontenplaymusic a {
@@ -75,7 +87,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    margin-left: 27px;
+    margin-left: 5px;
 }
 
 .icenitemuser button {
@@ -355,31 +367,35 @@
         // background: linear-gradient(to right, black  100%, #fff 0%);       
     }
 
-    .loading::before {
-        background-color: #cfcfcf;
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-
-    .loading::after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(to right, #cfcfcf 10%, #ffffff 50%, #cfcfcf 90%);
-        animation: loadinganimation 1s infinite alternate;
-    }
 }
+
+.loading{
+    position: relative;
+}
+.loading::before {
+    background-color: #cfcfcf;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.loading::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #cfcfcf 10%, #ffffff 50%, #cfcfcf 90%);
+    animation: loadinganimation 1s infinite alternate;
+}
+
 
 @keyframes loadinganimation {
     from {
@@ -390,3 +406,5 @@
         left: 50%;
     }
 }
+
+
